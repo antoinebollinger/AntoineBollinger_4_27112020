@@ -457,7 +457,8 @@ nav .caret {
 .btn-d:hover,
 .btn-d:focus {
     color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(255, 255, 255, .8);
+    box-shadow: 0 0 10px #575757;
 }
 
 button {
@@ -822,8 +823,20 @@ h4 {
     background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
+@media (max-width: 767px) {
+    .bg-banniere {
+        background-image: url("img/min/la-chouette-agence-banniere.jpg");
+    }   
+}
+
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
+}
+
+@media (max-width: 767px) {
+    .bg-presentation {
+        background-image: url("img/min/image-de-presentation.jpg");
+    }   
 }
 
 @media (max-width: 1024px) {
