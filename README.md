@@ -1,4 +1,4 @@
-# Openclassrooms project #4 : optimize a existing website
+# Openclassrooms Project #4: Optimize an Existing Website (SEO)
 
 ## Main goal
 
